@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(event) {
-    console.log('Sa ai o saptamana linistita!');
-   
+      
     document.querySelectorAll('.remove').forEach(function(element) {
         element.addEventListener('click', remove);
     });
