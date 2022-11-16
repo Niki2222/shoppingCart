@@ -141,6 +141,15 @@
        padding: 20px;
        margin: 20px auto;
    }
+
+   /* Footer */
+   footer ul {
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: 50px;
+    list-style: none;
+   }
    
    @media screen and (min-width: 568px) {
        .container {
@@ -162,6 +171,13 @@
        .remove {
            margin-left: 50px;
        }
+       footer ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      
+      
+       }
    }
    
    @media screen and (min-width: 768px) {
@@ -182,13 +198,4 @@
        }
    }
 
-   /* Footer */
-   footer ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: blue;
-    color: #fff;
-    padding: 50px;
-    list-style: none;
-   }
+   
